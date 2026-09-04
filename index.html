@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NIKO MOST</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Outfit:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    body{margin:0;min-height:100vh;font-family:Outfit,sans-serif;color:#f6efe3;
+      background:linear-gradient(165deg,#1a120e,#16302a 55%,#0e1c1a);display:grid;place-items:center;padding:32px}
+    main{max-width:720px}
+    h1{font-family:Fraunces,serif;font-size:clamp(36px,7vw,64px);margin:0 0 8px;font-weight:500}
+    p{color:#d7c9b0;line-height:1.55;max-width:42ch}
+    .row{display:grid;gap:14px;grid-template-columns:1fr 1fr;margin-top:28px}
+    a{display:block;background:#f6efe3;color:#1a1712;text-decoration:none;border-radius:22px;padding:22px;min-height:140px}
+    a b{display:block;font-family:Fraunces,serif;font-size:26px;margin:8px 0}
+    a span{color:#4a4338;font-size:14px}
+    @media(max-width:700px){.row{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>NIKO MOST</h1>
+    <p>Nemusíš mít všechno. Stačí přidat svůj kousek. Dvě větve jedné sítě — věci a jídlo. Bez jména, telefonu a adresy.</p>
+    <div class="row">
+      <a href="jidlo.html"><small>VĚTEV</small><b>Jídlo</b><span>Talíř, košík, vlaštovka, Studánka. Systém hledá, co chybí k dokončení pomoci.</span></a>
+      <a href="veci.html"><small>VĚTEV</small><b>Věci</b><span>Bunda, boty, kniha, most beze slov. Ne bazar. Síť kusů cesty.</span></a>
+    </div>
+  </main>
+</body>
+</html>
