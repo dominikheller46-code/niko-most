@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NIKO MOST JÍDLO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="jidlo.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="side">
+      <div class="brand">
+        <div class="mark" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+            <path d="M4 15c3-7 5-7 7-1s4 6 7 1" stroke="#1a1712" stroke-width="1.8"/>
+            <circle cx="11" cy="7.2" r="2" fill="#1a1712"/>
+          </svg>
+        </div>
+        <div>
+          <h1>NIKO MOST</h1>
+          <small>větev jídlo</small>
+        </div>
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <div class="side-foot">
+        <div class="me-chip">
+          <div class="avatar" id="avatar">K</div>
+          <div>
+            <div id="alias">Kapka 8</div>
+            <div style="opacity:.7;font-size:11px">tichý talíř · bez jména</div>
+          </div>
+        </div>
+        Nemusíš mít všechno. Stačí přidat svůj kousek.
+      </div>
+    </aside>
+    <main class="main">
+      <section class="view on" id="view-domov"></section>
+      <section class="view" id="view-mam"></section>
+      <section class="view" id="view-potrebuji"></section>
+      <section class="view" id="view-podat"></section>
+      <section class="view" id="view-cesta"></section>
+      <section class="view" id="view-mosty"></section>
+      <section class="view" id="view-mapa"></section>
+      <section class="view" id="view-reka"></section>
+      <section class="view" id="view-studanky"></section>
+      <section class="view" id="view-sloz"></section>
+      <section class="view" id="view-ja"></section>
+    </main>
+  </div>
+  <div class="toast" id="toast"></div>
+  <div class="modal-bg" id="modalBg" onclick="if(event.target===this) closeModal()">
+    <div class="modal" id="modal"></div>
+  </div>
+  <script src="jidlo-a.js"></script>
+  <script src="jidlo-b.js"></script>
+</body>
+</html>
